@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*Content First*/
+
+/*Navigation*/
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        color: #EEE;
+    }
+    nav ul {
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    nav a {
+        display: block;
+        padding: .5rem;
+        color: #333;
+        text-decoration: none;
+        text-align: center;
+    }
+    nav button {
+        padding: .5rem .8rem;
+        background-color: transparent;
+        border: 2px solid #333;
+        font-size: 1.5rem;
+    }
+
+    nav ul.active {
+        height: auto;
+    }
+/*Header*/
+
+/*Footer*/
