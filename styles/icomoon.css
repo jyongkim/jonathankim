@@ -1,0 +1,216 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?fu5p1f');
+  src:  url('../fonts/icomoon.eot?fu5p1f#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?fu5p1f') format('truetype'),
+    url('../fonts/icomoon.woff?fu5p1f') format('woff'),
+    url('../fonts/icomoon.svg?fu5p1f#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-vuejs:before {
+  content: "\e901";
+  color: #4fc08d;
+}
+.icon-angular:before {
+  content: "\e902";
+  color: #dd0031;
+}
+.icon-reactjs:before {
+  content: "\e903";
+  color: #61dafb;
+}
+.icon-git:before {
+  content: "\e904";
+  color: #f05032;
+}
+.icon-mysql:before {
+  content: "\e905";
+  color: #4479a1;
+}
+.icon-nodejs:before {
+  content: "\e906";
+  color: #393;
+}
+.icon-html:before {
+  content: "\e907";
+  color: #e34f26;
+}
+.icon-css:before {
+  content: "\e908";
+  color: #1572b6;
+}
+.icon-sass:before {
+  content: "\e909";
+  color: #c69;
+}
+.icon-python:before {
+  content: "\e90a";
+  color: #3776ab;
+}
+.icon-vsc:before {
+  content: "\e90b";
+  color: #007acc;
+}
+.icon-codecademy:before {
+  content: "\e90c";
+  color: #1f4056;
+}
+.icon-home:before {
+  content: "\e900";
+}
+.icon-about:before {
+  content: "\e90d";
+}
+.icon-library:before {
+  content: "\e921";
+}
+.icon-profile:before {
+  content: "\e923";
+}
+.icon-folder:before {
+  content: "\e930";
+}
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-coin-dollar:before {
+  content: "\e93b";
+}
+.icon-coin-euro:before {
+  content: "\e93c";
+}
+.icon-coin-pound:before {
+  content: "\e93d";
+}
+.icon-coin-yen:before {
+  content: "\e93e";
+}
+.icon-drawer:before {
+  content: "\e95c";
+}
+.icon-database:before {
+  content: "\e964";
+}
+.icon-undo:before {
+  content: "\e965";
+}
+.icon-redo:before {
+  content: "\e966";
+}
+.icon-bubblesdark:before {
+  content: "\e96d";
+}
+.icon-bubbleslight:before {
+  content: "\e970";
+}
+.icon-contact:before {
+  content: "\e976";
+}
+.icon-enlarge:before {
+  content: "\e98b";
+}
+.icon-shrink:before {
+  content: "\e98c";
+}
+.icon-cog:before {
+  content: "\e994";
+}
+.icon-bug:before {
+  content: "\e999";
+}
+.icon-fire:before {
+  content: "\e9a9";
+}
+.icon-briefcase:before {
+  content: "\e9ae";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-sphere:before {
+  content: "\e9c9";
+}
+.icon-earth:before {
+  content: "\e9ca";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-play:before {
+  content: "\ea15";
+}
+.icon-pause:before {
+  content: "\ea16";
+}
+.icon-stop:before {
+  content: "\ea17";
+}
+.icon-previous:before {
+  content: "\ea18";
+}
+.icon-next:before {
+  content: "\ea19";
+}
+.icon-backward:before {
+  content: "\ea1a";
+}
+.icon-forward:before {
+  content: "\ea1b";
+}
+.icon-volumeup:before {
+  content: "\ea26";
+}
+.icon-mute:before {
+  content: "\ea2a";
+}
+.icon-mail:before {
+  content: "\ea83";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-reddit:before {
+  content: "\eac6";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+.icon-paypal:before {
+  content: "\ead8";
+}
+.icon-htmllight:before {
+  content: "\eae4";
+}
+.icon-htmldark:before {
+  content: "\eae5";
+}
+.icon-css31:before {
+  content: "\eae6";
+}

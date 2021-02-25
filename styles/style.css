@@ -1,0 +1,176 @@
+@import url("icomoon.css");
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/*Content First*/
+
+/*Navigation*/
+    nav {
+        display: flex;
+        position: sticky;
+        top: 0;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: #EEE;
+        z-index: 3;
+    }
+    nav ul {
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    nav a {
+        display: block;
+        padding: .5rem;
+        color: #333;
+        text-decoration: none;
+        font-size: 2rem;
+    }
+
+    nav li a {
+        padding-left: 40vw;
+        display: flex;
+        align-items: center;
+    }
+
+    nav button {
+        padding: .5rem .8rem;
+        background-color: transparent;
+        border: 2px solid #333;
+        font-size: 1.5rem;
+    }
+
+    nav ul.active {
+        height: auto;
+    }
+
+    nav span {
+        font-size: 1rem;
+        display: inline-block;
+        padding: .5rem;
+    }
+    
+/*Header*/
+#header {
+    position: relative;
+    border: 1px solid black;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    height: 100vw;
+    z-index: 1;
+}
+
+/* Gallery */
+ul.slide, ul.slide li {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.slide li:nth-child(1) {
+    background-color: tomato;
+}
+
+.slide li:nth-child(2) {
+    background-color: turquoise;
+}
+
+.slide li:nth-child(3) {
+    background-color: limegreen;
+}
+
+.slide li:nth-child(4) {
+    background-color: deepskyblue;
+}
+
+ul.slide li {
+    opacity: .1;
+}
+
+ul.slide .active {
+    opacity: 1;
+}
+
+/* Gallery controls */
+
+.slide button {
+    background-color: #EEE;
+    border-radius: 1rem;
+    padding: .5rem;
+    transition: all .3s linear;
+    outline: none;
+    box-shadow: 0 0 4px #EEE;
+    border: none;
+}
+
+.slide button.active {
+    width: 3rem;
+}
+
+#header > button {
+    padding: .5rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+/*Footer*/
+
+/*Medium devices*/
+
+@media screen and (min-width: 768px) {
+    /*Navigation*/
+    nav ul {
+        display: flex;
+        height: auto;
+        width: auto;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav li a {
+        padding: .5rem;
+        text-align: center;
+    }
+
+    nav span {
+        display: none;
+    }
+}
+
+/*Large devices*/
+@media screen and (min-width: 1200px) {
+    
+    /*Navigation*/
+    nav span {
+        display: block;
+        padding: 0;
+    }
+
+    nav li a {
+        font-size: 1.5rem;
+        flex-direction: column;
+    }
+
+}
